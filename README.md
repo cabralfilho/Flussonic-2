@@ -25,4 +25,11 @@ apt-get update
 apt-get -y install flussonic
 /etc/init.d/flussonic restart
 
+The default login and password are: 
+
+login: flussonic
+
+password: letmein!
+
+
 
