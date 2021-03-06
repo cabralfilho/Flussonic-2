@@ -37,5 +37,10 @@ apt-get -y install flussonic
 /etc/init.d/flussonic restart
 
 
+# Updating License
+vim /etc/flussonic/license.txt
 
+After successful installation of flussonic, you need to get the trial license or purchase if you wish to use it for long in production by signing up or requesting for a trial license using this LINK.
+
+Then open the license key file using any of your command line editors and add the license key in it and close the file after saving the license key in it as shown below.
 
