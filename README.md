@@ -17,8 +17,12 @@ curl -sSf https://raw.githubusercontent.com/tobi2021lol/Flussonic/master/install
 
 web interface on the page http://ip:8080
  
- admin
- admin
+ The default login and password are: 
+
+login: flussonic
+
+password: letmein!
+
 
 # Cracked flussonic license key
 l4|8Ku8ypPgOUySHysCdkFHW0|r6BzpmVPpjgKpn9IunpFp6lLbCZOp3
@@ -32,11 +36,6 @@ apt-get update
 apt-get -y install flussonic
 /etc/init.d/flussonic restart
 
-The default login and password are: 
-
-login: flussonic
-
-password: letmein!
 
 
 
