@@ -1,4 +1,11 @@
-http://flussonic.com/doc/installation
+To install Flussonic, run this command in the Linux console (command line):
+
+curl -sSf https://raw.githubusercontent.com/tobi2021lol/Flussonic/master/install.sh | sh
+
+Then start Flussonic Media Server:
+
+/etc/init.d/flussonic start
+
 
 # Installing Flussonic using Debian installation package (for Ubuntu 12.04 64bit and higher or Debian Wheezy 64 bit)
 
