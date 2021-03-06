@@ -44,3 +44,33 @@ After successful installation of flussonic, you need to get the trial license or
 
 Then open the license key file using any of your command line editors and add the license key in it and close the file after saving the license key in it as shown below.
 
+# Starting Services
+
+To start flussonic services on Ubuntu or Linux you can use the same command.
+
+/etc/init.d/flussonic restart
+
+To check the status of flussonic service if its working fine or not, run the below command.
+
+/etc/init.d/flussonic status 
+
+You can use the below commands to stop or restart the flusonic services with the help of following commands.
+
+/etc/init.d/flussonic stop
+/etc/init.d/flussonic restart
+
+To reconfigure with client connections live to use the below command to reload its services.
+
+/etc/init.d/flussonic reload
+ 
+
+
+Flussonic Version
+
+ 
+
+You can check the currently installed version of Flussonic on Linux by using the below commands.
+
+On CentOS
+
+rpm -qa | grep flussonic
